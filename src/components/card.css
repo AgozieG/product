@@ -1,0 +1,25 @@
+
+
+
+.card{
+    background-color: antiquewhite;
+}
+
+.picture{
+    width: 80%;
+    margin: 10%;
+    border-radius: 10px;
+
+}
+
+.container2{
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width: 480px) {
+    .card{
+        width: 80%;
+        margin-left: 7%;
+    }
+}

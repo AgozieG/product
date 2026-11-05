@@ -1,0 +1,14 @@
+
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+    .container{
+        display: block;
+    }
+}

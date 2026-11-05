@@ -1,0 +1,82 @@
+
+
+
+main{
+    max-width: 720px;
+    margin: 5% auto;
+    padding: 10%;
+    color: bisque;
+}
+
+main h1 {
+    margin: 0 0 3%;
+    text-align: center;
+}
+
+main form {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    padding: 5%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    
+}
+
+main label{
+    font-weight: 600px;
+}
+
+main input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem 0.65rem;
+    color: white;
+    background-color: darkgray;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: 800;
+
+}
+
+main input:focus-visible {
+    outline: 3px solid darkgreen;
+    border-color: black;
+}
+
+main button {
+    margin-top: 0.25;
+    padding: 0.55rem 0.85rem;
+    background-color: teal;
+    color: whitesmoke;
+    font-weight: 700px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+main button:hover{
+    background-color: brown;
+
+}
+
+main p{
+    margin: 0;
+    padding: 0.65rem 0.85rem;
+    color: darkgreen;
+    border: 1px solid brown;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    main{
+        margin: 0.5rem auto;
+        padding: 0.75rem;
+    }
+    main form{
+        padding: 0.85rem;
+    }
+}

@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Deploy to GitHub Pages
 
-This project is configured for the `AgozieG/shop` repository. Run `npm run deploy` to build the site and publish the generated `dist` folder to the `gh-pages` branch. In the repository's **Settings → Pages**, choose **Deploy from a branch**, select `gh-pages`, and use the `/(root)` folder. The published site is available at `https://AgozieG.github.io/shop/`.
+This project is configured for the `AgozieG/product` repository. Run `npm run deploy` to build the site and publish the generated `dist` folder to the `gh-pages` branch. In the repository's **Settings → Pages**, choose **Deploy from a branch**, select `gh-pages`, and use the `/(root)` folder. The published site is available at `https://AgozieG.github.io/product/`.
 
 Currently, two official plugins are available:
 
